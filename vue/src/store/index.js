@@ -180,8 +180,8 @@ const store = createStore({
   state: {
     user: {
       data: {},
-      //token: "123",
-      token: sessionStorage.getItem("TOKEN"),
+      token: "123",
+      //token: sessionStorage.getItem("TOKEN"),
     },
     //resumes: [...tempResumes],
     resumes: {

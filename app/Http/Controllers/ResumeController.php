@@ -313,7 +313,7 @@ class ResumeController extends Controller
         return $link->update($validator->validated());
     }
 
-    public function createSection($data)
+    public function createCu($data)
     {
         $validator = Validator::make($data, [
             'resume_id' => 'exists:App\Models\Resume,id',
